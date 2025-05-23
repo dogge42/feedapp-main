@@ -4,13 +4,13 @@ import 'models/comment.dart';
 final dummyPosts = [
   Post(
     id: 'p1',
-    userName: 'Shop online',
-    userAvatar: 'https://randomuser.me/api/portraits/women/1.jpg',
+    userName: 'Túi xách online',
+    userAvatar: 'https://randomuser.me/api/portraits/women/9.jpg',
     timeAgo: '20 Phút trước',
     location: 'Thanh Xuân, Hà Nội',
     content: 'Mình có 01 túi sách hiệu Louis Vuitton mới 100% cần bán gấp.\nBạn nào cần liên hệ mình...',
     mediaItems: [
-      MediaItem(url: 'https://images.unsplash.com/photo-1517841905240-472988babdf9', type: MediaType.image),
+      MediaItem(url: 'https://images.unsplash.com/photo-1521234534901-115dbbcddf61?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: MediaType.image),
       MediaItem(url: 'https://assets.mixkit.co/videos/preview/mixkit-fashion-model-with-a-black-and-white-outfit-42925-large.mp4', type: MediaType.video),
     ],
     price: '100.000.000 VNĐ',
@@ -18,15 +18,15 @@ final dummyPosts = [
     comments: 2,
     commentList: [
       Comment(
-        userName: 'Linda Kiều',
+        userName: 'Linda Ngo',
         userAvatar: 'https://randomuser.me/api/portraits/women/2.jpg',
-        timeAgo: '3 Giờ trước',
+        timeAgo: '5 Giờ trước',
         message: 'Đẹp quá <3',
       ),
       Comment(
-        userName: 'Hàng hiệu 100%',
+        userName: 'Quốc Nam',
         userAvatar: 'https://randomuser.me/api/portraits/men/3.jpg',
-        timeAgo: '3 Ngày trước',
+        timeAgo: '9 Ngày trước',
         message: 'Nhìn cũng được đấy :)))',
       ),
     ],
@@ -35,19 +35,19 @@ final dummyPosts = [
     id: 'p2',
     userName: 'Luxury Store',
     userAvatar: 'https://randomuser.me/api/portraits/men/4.jpg',
-    timeAgo: '1 Giờ trước',
-    location: 'Quận 1, TP.HCM',
-    content: 'Đồng hồ Rolex chính hãng, full box, bảo hành 5 năm.',
+    timeAgo: '8 Giờ trước',
+    location: 'Quận 2, TP.HCM',
+    content: 'Đồng hồ Rolex chính hãng, full box, bảo hành 4 năm.',
     mediaItems: [
-      MediaItem(url: 'https://assets.mixkit.co/videos/preview/mixkit-hands-holding-a-smart-watch-with-the-stopwatch-running-32808-large.mp4', type: MediaType.video),
-      MediaItem(url: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb', type: MediaType.image),
+      MediaItem(url: 'https://images.unsplash.com/photo-1725028748767-93b571f54da7?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: MediaType.video),
+      MediaItem(url: 'https://images.unsplash.com/photo-1725028748767-93b571f54da7?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: MediaType.image),
     ],
     price: '250.000.000 VNĐ',
     likes: 20,
     comments: 8,
     commentList: [
       Comment(
-        userName: 'Ngọc Trinh',
+        userName: 'Ngọc Nam',
         userAvatar: 'https://randomuser.me/api/portraits/women/5.jpg',
         timeAgo: '30 Phút trước',
         message: 'Có giảm giá không shop?',
@@ -56,7 +56,7 @@ final dummyPosts = [
   ),
   Post(
     id: 'p3',
-    userName: 'Fashionista',
+    userName: 'Second hand luxury store',
     userAvatar: 'https://randomuser.me/api/portraits/women/6.jpg',
     timeAgo: '2 Ngày trước',
     location: 'Đống Đa, Hà Nội',
